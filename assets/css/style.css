@@ -1,0 +1,150 @@
+/* Page css global format */
+* {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+/* Header format */
+header {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    background-color: #602ab0;
+    padding: 20px 1%;
+}
+
+header img {
+    border-radius: 80px;
+}
+
+header h1 {
+    padding-left: 10px;
+}
+
+header nav {
+    padding-top: 10px;
+}
+
+header nav a {
+    color: black;
+    background-color: #dcd6ff;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 4px;
+}
+
+/* Navigation format */
+.active:after, a:hover:after, a:hover {
+    content: ' ';
+    width: 100%;
+    height: 3px;
+    border-radius: 3px;
+    color: #6b6bd6;
+    background-color: #ffffff;
+    left: 0;
+    top: -7px;
+}
+
+/* Body format */
+body {
+    background-color: #6b6bd6;
+    padding: 0px;
+    text-align: left;
+}
+
+body section {
+    margin: 20px;
+}
+
+/* main format */
+main section {
+    flex: 1;
+    padding: 30px;
+}
+
+/* page content format */
+content h1, h2 {
+    padding: 10px;
+}
+
+.content section h5,h4,h3,.picDesc{
+    padding: 15px;
+    background-color: #dcd6ff;
+    border-radius: 30px;
+    color: #3c2ab0;
+}
+
+.content {
+    display: inline-block;
+    width: 75%;
+}
+
+/* Project section format */
+.picDesc {
+    margin: 10px;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+}
+.picDesc img {
+    border-radius: 20px;
+}
+.picDesc h4 {
+    margin: 20px;
+}
+
+/* Contact section format */
+.contact div a {
+    color: #3c2ab0;
+}
+
+.contact strong {
+    color: black;
+}
+
+/* mobile browser capabilities */
+@media (max-width: 800px) {
+    @media (min-width: 720px){
+        header {
+        text-align: left;
+        display: inline-block;
+        padding-right: 50%;
+        }
+    }
+    
+}
+
+@media (max-width: 720px) {
+    header img {
+        width: 70px;
+        height: 70px;
+        border-radius: 80px;
+        padding: 0px;
+    }
+    header h1{
+        padding: 10px;
+    }
+    body ,.picDesc{
+        text-align: center;
+    }
+    header {
+        display: inline-block;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .content section h4,h3,.contact div{
+        padding: 5px;
+        background-color: #dcd6ff;
+        border-radius: 15px;
+        color: #3c2ab0;
+    }
+    main section {
+        padding: 10px;
+    }
+    .picDesc {
+        display: inline-block;
+    }
+}
