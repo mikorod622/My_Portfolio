@@ -56,5 +56,6 @@ Hovering over the project images expands them and also link to another page.
 
 ---
 
-Link to website: 
+Link to website: https://mikorod622.github.io/My_Portfolio_Homework_Challenge_Website/
+
 
